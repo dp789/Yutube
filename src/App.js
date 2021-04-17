@@ -13,7 +13,7 @@ import { useSelector } from 'react-redux'
 import WatchScreen from './screens/watchScreen/WatchScreen'
 import SearchScreen from './screens/SearchScreen'
 import SubscriptionsScreen from './screens/subscriptionsScreen/SubscriptionsScreen'
-import ChannelScreen from './screens/channelScreen/ChannelScreen'
+import ChannelScreen from './screens/channelScreen/channelScreen'
 
 const Layout = ({ children }) => {
    const [sidebar, toggleSidebar] = useState(false)
